@@ -73,6 +73,7 @@ A **Resources section** was added using an unordered list (`ul`), and styled to 
 ## Challenges & Improvements
 
 One of the main challenges was grasping the idea of the main role of media queries and the flexbox elements. Once i fully understood how to apply these techniques and how they work was i then able to integrate it into my website. Struggling with the responsiveness and readability of my website was also a big concern for me but taking the extra time to fully understand the concept helped me successfully enhance my portfolio.
+I tested my website on a phone, a tablet and desktop and improved the website accordingly to ensure smooth responsiveness across each device.
 
 ## Validation
 
