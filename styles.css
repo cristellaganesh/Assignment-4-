@@ -1,0 +1,154 @@
+
+/* Cristella's Personal Portfolio */
+
+/* main part of the webpage */
+
+/* Media Query */
+
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+    margin: 30px;
+  }
+}
+
+body {
+	background-color: pink;
+	font-family: Iosevka Charon Mono, sans-serif;
+	text-align: center;
+	color: #333;
+	margin: 10px;
+}
+
+/* the main heading of my page */
+h1 {
+	text-align: center;
+	font-size: 30px;
+}
+
+/* my naigation bar */
+/* media approach */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+nav a {
+	text-decoration: none;
+	background-color: #90EE90;
+	padding: 5px;
+	border: 2px solid black;
+	margin: 15px;
+	display: inline-block;	
+	border-radius: 20px;
+    transition: 0.3s;
+	
+}
+ 
+ /* The transition for my nav bar */
+ 
+ nav a:hover {
+  background-color: hotpink;
+  transform: scale(1.05);
+}
+ 
+ 
+ /* all the main headings of the page */
+ 
+ .headings {
+	 text-decoration: underline;
+	 font-weight: bold;
+ }
+
+/* paragraphs/content */	
+	
+.paragraph {
+	font-family: Arial, sans-serif;
+	text-align: left;
+	font-size:16px;
+}
+
+/* home section */
+
+.home {
+	font-family: Arial, sans-serif;
+}
+
+  
+/* Responsiveness for images on different screens */
+  
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* footer section */
+
+.footer {
+	font-family: Arial, sans-serif;
+}
+
+/* Resource list added */
+
+.research {
+	font-family: Arial, sans-serif;
+	
+}
+
+/* custom list style */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ffe4ec;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+
+/* Media Approach */
+/* Phone/Tablet */
+
+@media (min-width: 600px) {
+  nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 900px) {
+  main {
+    max-width: 800px;
+    margin: auto;
+  }
+}
+
+.image-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Phone/Tablet */
+@media (min-width: 600px) {
+  .image-row {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
