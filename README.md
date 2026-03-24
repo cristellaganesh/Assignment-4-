@@ -59,11 +59,11 @@ A **Resources section** was added using an unordered list (`ul`), and styled to 
 ## Design Choices
 
 ### Colour Scheme
-- A soft pink background reflects a modern, creative aesthetic
-- Light green navigation elements provide contrast and visual interest to appeal users
+- The soft pink background reflects a modern, creative aesthetic while matching my theme of my website 
+- Light green navigation elements provided contrast and visual interest to appeal users
 
 ### Typography
-- Headings use a custom Google Font for personality and uniqueness 
+- Headings use a custom Google Font for personality and uniqueness while improving readability
 - Paragraph text uses a simple font (Arial) to maintain readability 
 
 ### Layout & Spacing
