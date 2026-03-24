@@ -152,3 +152,24 @@ li {
     justify-content: center;
   }
 }
+
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px;
+  align-items: start;
+  margin-bottom: 40px;
+}
+
+.grid-section .images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+@media (max-width: 600px) {
+  .grid-section {
+    grid-template-columns: 1fr; 
+  }
+}
